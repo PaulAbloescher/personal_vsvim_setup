@@ -16,6 +16,7 @@ let mapleader=" "
 " Mappings
 map gd :vsc ReSharper.ReSharper_GotoDeclaration<CR>
 map gh :vsc Edit.QuickInfo<CR>
+map gr :vsc Edit.FindAllReferences<CR>
 map <leader>r :vsc ReSharper.ReSharper_Rename<CR>
 map <leader>ec :vsc ReSharper.ReSharper_CleanupCode<CR>
 map <leader>t :vsc ReSharper.ReSharper_GotoType<CR>

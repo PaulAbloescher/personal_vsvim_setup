@@ -1,6 +1,9 @@
 set number relativenumber
 set clipboard=unnamed
 
+" Enhance backspace capabilities
+set backspace=indent,eol,start
+
 " Search
 set hlsearch
 set incsearch

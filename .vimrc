@@ -16,10 +16,11 @@ let mapleader=" "
 " Mappings
 map gd :vsc ReSharper.ReSharper_GotoDeclaration<CR>
 map gh :vsc Edit.QuickInfo<CR>
+map gc :vsc Edit.ToggleLineComment<CR>
 map <leader>r :vsc ReSharper.ReSharper_Rename<CR>
 map <leader>ec :vsc ReSharper.ReSharper_CleanupCode<CR>
 map <leader>t :vsc ReSharper.ReSharper_GotoType<CR>
-map <leader>rg :vsc Edit.SortUsings<CR>
+map <leader>rg :vsc Edit.RemoveAndSort<CR>
 
 " Enable Ctrl + Backspace in insert mode
 imap <C-BS> <C-W>

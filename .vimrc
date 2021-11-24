@@ -21,10 +21,6 @@ map <leader>ec :vsc ReSharper.ReSharper_CleanupCode<CR>
 map <leader>t :vsc ReSharper.ReSharper_GotoType<CR>
 map <leader>rg :vsc Edit.SortUsings<CR>
 
-" Git
-map <leader>gf :vsc Team.Git.Fetch<CR>
-map <leader>gp :vsc Team.Git.Pull<CR>
-
 " Enable Ctrl + Backspace in insert mode
 imap <C-BS> <C-W>
 

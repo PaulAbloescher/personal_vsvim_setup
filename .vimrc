@@ -22,6 +22,11 @@ map <leader>ec :vsc ReSharper.ReSharper_CleanupCode<CR>
 map <leader>t :vsc ReSharper.ReSharper_GotoType<CR>
 map <leader>rg :vsc Edit.RemoveAndSort<CR>
 
+" Use same key positions as in qwerty
+map - /
+map _ ?
+map & ^
+
 " Enable Ctrl + Backspace in insert mode
 imap <C-BS> <C-W>
 

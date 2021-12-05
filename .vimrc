@@ -36,3 +36,6 @@ imap jj <Esc>
 " Quickly add trailing ; or ,
 imap ;; <Esc>A;<Esc>
 imap ,, <Esc>A,<Esc>
+
+" Quickly add curly brackets for code blocks
+imap {{ <Esc>A{<CR><Esc>

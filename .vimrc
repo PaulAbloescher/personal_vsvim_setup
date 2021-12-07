@@ -14,12 +14,13 @@ nnoremap <Space> <Nop>
 let mapleader=" "
 
 " Mappings
-map gd :vsc ReSharper.ReSharper_GotoDeclaration<CR>
+map gd :vsc Edit.GoToDefinition<CR>
 map gh :vsc Edit.QuickInfo<CR>
 map gc :vsc Edit.ToggleLineComment<CR>
+map <leader>ne :vsc View.NextError<CR>
 map <leader>r :vsc ReSharper.ReSharper_Rename<CR>
-map <leader>ec :vsc ReSharper.ReSharper_CleanupCode<CR>
-map <leader>t :vsc ReSharper.ReSharper_GotoType<CR>
+map <leader>ec :vsc Edit.FormatDocument<CR>
+map <leader>t :vsc Edit.GotoAll<CR>
 map <leader>rg :vsc Edit.RemoveAndSort<CR>
 
 " Use same key positions as in qwerty
@@ -39,3 +40,8 @@ imap ,, <Esc>A,<Esc>
 
 " Quickly add curly brackets for code blocks
 imap {{ <Esc>A{<CR><Esc>
+
+" Save files with Ctrl + S
+noremap <C-S>		:w<CR>
+vnoremap <C-S>		<C-C>:w<CR>
+inoremap <C-S>		<C-O>:w<CR>

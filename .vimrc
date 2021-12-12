@@ -41,6 +41,9 @@ imap ,, <Esc>A,<Esc>
 " Quickly add curly brackets for code blocks
 imap {{ <Esc>A{<CR><Esc>
 
+" Make Y behave similar to C and D
+nnoremap Y y$
+
 " Save files with Ctrl + S
 noremap <C-S>		:w<CR>
 vnoremap <C-S>		<C-C>:w<CR>

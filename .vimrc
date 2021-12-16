@@ -17,6 +17,7 @@ let mapleader=" "
 map gd :vsc Edit.GoToDefinition<CR>
 map gh :vsc Edit.QuickInfo<CR>
 map gc :vsc Edit.ToggleLineComment<CR>
+map <C-w><C-o> :vsc File.CloseAllButThis<CR>
 map <leader>r :vsc Refactor.Rename<CR><Esc>b
 map <leader>ne :vsc View.NextError<CR>
 map <leader>ec :vsc Edit.FormatDocument<CR>
